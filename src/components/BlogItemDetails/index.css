@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.blogItem_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 50px;
+}
+.title {
+  color: black;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.avatarAndAuthor {
+  display: flex;
+  align-items: center;
+}
+
+.avatarImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.author {
+  color: rgb(37, 36, 36);
+  font-size: 16px;
+}
+
+.titleImage {
+  width: 400px;
+  height: 200px;
+}
+
+.content {
+  color: rgb(40, 56, 40);
+}
